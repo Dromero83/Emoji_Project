@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightcoral;
+}
+
+.emoji {
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.redHeart, .orangeHeart, .yellowHeart, .greenHeart, .blueHeart, .purpleHeart{
+    display: none;
+}
+
+.active {
+    display: block;
+}
